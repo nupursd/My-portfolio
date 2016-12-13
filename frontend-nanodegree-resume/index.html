@@ -15,6 +15,9 @@
     <script src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDGGxD0HmQkoDuSOU2lUMN944bPEOufahU"></script>
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -24,24 +27,27 @@
             <ul id="topContacts" class="flex-box"></ul>
         </div>
         <div style="clear: both;"></div>
-        <div id="workExperience" class="gray">
-            <h2>Work Experience</h2>
-        </div>
+
         <div id="projects" class="light-gray">
-            <h2>Projects</h2>
+            <h3>Projects</h3>
         </div>
         <div id="education" class="gray">
-            <h2>Education</h2>
+            <h3>Education</h3>
         </div>
-        <div id="mapDiv" class="light-gray">
-            <h2>Where I've Lived and Worked</h2>
+        <div id="workExperience" class="light-gray">
+            <h3>Work Experience</h3>
+        </div>
+         <div id="mapDiv" class="gray">
+            <h3>Where I've Lived and Worked</h3>
         </div>
         <div id="lets-connect" class="dark-gray">
-            <h2 class="orange center-text">Let's Connect</h2>
+            <h3 class="orange center-text white-text">Let's Connect</h3>
             <ul id="footerContacts" class="flex-box">
             </ul>
         </div>
+
     </div>
+
 
 
     <script src="js/jQuery.js"></script>
@@ -76,6 +82,8 @@
             document.getElementById('mapDiv').style.display = 'none';
         }
     </script>
+
+
 </body>
 
 </html>
